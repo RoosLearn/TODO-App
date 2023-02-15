@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container">
+              <a class="navbar-brand logo" href="#">toDo App</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navigation">
+                 
+                  <li class="nav-item">
+                    <a class="nav-link " href="#" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" >About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="check.html">To-do LIST</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html" >LOG OUT</a>
+                  </li>
+                  
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- end of navbar -->
+    
+
+    <section class="parallax">
+        <img src="images/forest.jpg" id="forest" class = "img-fluid" alt="">
+        <div class="text-center">
+           
+            
+            <h2 id="text" class="display-4 text-center">ToDo Website</h2>
+            <style>
+                @media (max-width: 576px) {
+                   .display-4 {
+                      font-size: 32px;
+                   }
+                }
+             </style>
+           
+        </div>
+       
+    </section>
+
+    <section class="sec">
+        <h2>Welcome ToDo Website</h2>
+       <p>
+        My to-do website is a dynamic platform that helps individuals and 
+        teams stay organized and on top of their tasks. The website is 
+        user-friendly and easy to navigate, allowing users to quickly 
+        add new tasks, prioritize their existing ones, and track their
+         progress over time. The website also has the capability to set
+          reminders and deadlines, ensuring that users never miss a 
+          deadline or forget an important task.Whether used for personal 
+          or professional purposes, this website is a valuable tool that
+           helps users stay productive and accomplish their goals.
+       </p><br><br>
+
+       <div class="d-flex flex-row align-items-center justify-content-around" style="height:20vh;">
+        <div class="text-center">
+          <p class="mb-0 " style="font-size: 22px; font-weight: bold;">Click Here to Start Multi-Tasking</p>
+          <p><a href="check.html" class="btn btn-warning mt-3" >To-do LIST</a></p>
+        </div>
+        <div class="text-center">
+          <p class="mb-0" style="font-size: 22px; font-weight: bold;">Not Interested</p>
+          <p><a href="index.html" class="btn btn-warning mt-3" >LOG OUT</a></p>
+        </div>
+      </div>
+      
+      
+    </section>
+   
+    <script src="script2.js"></script>
+</body>
+</html>

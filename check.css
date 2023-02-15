@@ -1,0 +1,52 @@
+body{
+    background-image: url('/images/image1.jpg');
+    background-size: contain;
+}
+
+
+
+.text{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+  
+  
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(37, 32, 37);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+   
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: rgb(166, 101, 101);
+  }
+  
+  
